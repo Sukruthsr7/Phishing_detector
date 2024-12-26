@@ -11,9 +11,7 @@ Prerequisites
 Python 3.x
 Required Python packages (install using pip install -r requirements.txt)
 Installation
-Clone the repository:
 
-git clone https://github.com/yourusername/url-scanning-script.git
 cd url-scanning-script
 Install dependencies:
 
