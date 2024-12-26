@@ -1,0 +1,41 @@
+Version: 1.0.0
+Date: December 26, 2024
+
+New Features:
+
+URL Scanning:
+Added functionality to scan URLs for suspicious patterns.
+Integrated DNS resolution check to verify if the domain resolves to a valid IP address.
+Implemented SSL certificate validation to ensure the URL's SSL certificate is valid.
+Added domain age verification using WHOIS API to determine the age of the domain.
+Integrated VirusTotal API to check the reputation of URLs.
+Added URLScan.io API integration to perform detailed URL scans.
+Enhancements:
+
+Error Handling:
+
+Improved error handling for HTTP and SSL errors with detailed explanations.
+Added comprehensive exception handling for network requests.
+User Interaction:
+
+Implemented a loading animation to indicate progress during various checks.
+Enhanced user prompts for better interaction and decision-making.
+Bug Fixes:
+
+Fixed issues with URL pattern matching to accurately detect suspicious URLs.
+Resolved bugs related to SSL certificate validation and domain age retrieval.
+Known Issues:
+
+None reported.
+Future Improvements:
+
+Plan to add more detailed analysis and reporting features.
+Consider integrating additional security APIs for enhanced URL scanning.
+API Keys:
+
+Ensure to replace placeholder API keys with your actual API keys for VirusTotal, WHOIS, and URLScan.io.
+Usage Instructions:
+
+Install required dependencies using pip install -r requirements.txt.
+Run the script using python your_script.py.
+Follow the on-screen prompts to scan URLs and view results.
