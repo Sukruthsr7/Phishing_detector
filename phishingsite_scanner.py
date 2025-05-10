@@ -7,9 +7,9 @@ import time
 import sys
 from urllib.parse import urlparse
 
-VIRUSTOTAL_API_KEY = "d480d5e00473bd6892995627b928bbba7ee8f67a96c56829df12176ec1646ba0"
-WHOIS_API_KEY = "at_Gtbyrb2oKxGrUc3yPdn7ZixZbQcHC"
-URLSCAN_API_KEY = "3a447bc3-7f6f-4f52-af82-03fe3e12f11a"
+VIRUSTOTAL_API_KEY = "ADD YOUR API"
+WHOIS_API_KEY = "ADD YOUR API"
+URLSCAN_API_KEY = "ADD YOUR API"
 
 HTTP_ERROR_CODES = {
     400: "Bad Request: The server could not understand the request.",
